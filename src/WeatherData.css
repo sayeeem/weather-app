@@ -1,0 +1,29 @@
+.weatherData {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 100%; */
+  margin: 20px 0;
+}
+.weather__main {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.weather__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weather__desc {
+  font-size: 16px;
+  font-style: italic;
+  border-bottom: 1px solid #eb6e4b;
+}
+.weather__stats {
+  padding-top: 5px;
+}
+.weather__stats p {
+  font-size: 14px;
+  margin: 0;
+}
